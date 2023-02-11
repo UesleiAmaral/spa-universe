@@ -72,6 +72,11 @@ body {
 
 }
 
+.nav-bar ul .hide{
+  font-weight: 700;
+    color: #FFFFFF;
+  }
+
 main {
   display: flex;
   flex-direction: column;
@@ -92,7 +97,9 @@ h2 {
   color: #E1E1E6;
 }
 
-main .button-home {
+main a {
+  text-align: center;
+  text-decoration: none;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
@@ -108,18 +115,18 @@ main .button-home {
 
 }
 
-main .button-home:hover {
+main a:hover {
   background-color: #FFFFFF;
   color: #02799D;
   animation: transition-button .5s;
 
 }
 
-.page-universo {
+.page-universo, .page-exploracao {
   margin: 5rem 5rem 0;
 }
 
-.page-universo p {
+.page-universo p, .page-exploracao p {
   width: 648px;
   padding-top: 1.5rem;
   font-family: 'Roboto';
