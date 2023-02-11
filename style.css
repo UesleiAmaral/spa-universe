@@ -41,12 +41,12 @@ body {
 
 }
 
-.nav-bar figure {
+figure {
   display: grid;
   align-self: center;
 }
 
-.nav-bar ul {
+ul {
   display: flex;
   gap: 4rem;
   justify-content: center;
@@ -54,7 +54,7 @@ body {
 
 }
 
-.nav-bar ul li a {
+a {
   font-family: 'Roboto', sans-serif;
   text-decoration: none;
   font-style: normal;
@@ -66,16 +66,10 @@ body {
 
 }
 
-.nav-bar ul .nav-home a {
+.select {
   font-weight: 700;
   color: #FFFFFF;
-
 }
-
-.nav-bar ul .hide{
-  font-weight: 700;
-    color: #FFFFFF;
-  }
 
 main {
   display: flex;
@@ -88,18 +82,17 @@ main {
 
 }
 
-main .main-title,
+h1,
 h2 {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 3rem;
   color: #E1E1E6;
+
 }
 
-main a {
-  text-align: center;
-  text-decoration: none;
+button {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
@@ -115,18 +108,20 @@ main a {
 
 }
 
-main a:hover {
+button:hover {
   background-color: #FFFFFF;
   color: #02799D;
   animation: transition-button .5s;
 
 }
 
-.page-universo, .page-exploracao {
+.page-universo,
+.page-exploracao {
   margin: 5rem 5rem 0;
 }
 
-.page-universo p, .page-exploracao p {
+.page-universo p,
+.page-exploracao p {
   width: 648px;
   padding-top: 1.5rem;
   font-family: 'Roboto';
@@ -138,8 +133,6 @@ main a:hover {
   color: #E1E1E6;
 
 }
-
-
 
 @keyframes transition-button {
   0% {
@@ -162,3 +155,5 @@ main a:hover {
     opacity: .8;
   }
 }
+
+

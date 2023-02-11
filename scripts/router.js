@@ -11,17 +11,17 @@ export class Router {
 
     const allLink = document.querySelectorAll('a');
 
-    window.history.pushState({}, "", event.target.href);
-
     allLink.forEach(element => {
-      event.target.classList.add('hide');
+      event.target.classList.add('select');
 
-      if (event.target.classList == 'hide') {
-        element.classList.remove('hide');
-        console.log(element)
+      if (event.target.classList == 'select') {
+        element.classList.remove('select');
 
       }
+
     })
+
+    window.history.pushState({}, "", event.target.href);
 
     this.handle();
   };

@@ -1,4 +1,4 @@
-import { Router } from "./scripts/router.js";
+import { Router } from "./router.js";
 const router = new Router();
 router.add('/', "/pages/home.html");
 router.add("/o-universo", "/pages/o-universo.html");
