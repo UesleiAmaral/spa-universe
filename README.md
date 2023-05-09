@@ -38,6 +38,14 @@ Para usar a SPA-Universe, siga estas etapas:
 ```
 
 ```
+npm install
+```
+
+```
+2. Após a intalação de todas as dependençias digite.
+```
+
+```
 npm start
 ```
 
